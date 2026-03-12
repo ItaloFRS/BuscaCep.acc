@@ -1,0 +1,137 @@
+
+.formInfo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+
+    width: 40vw;
+    height: 75vh;
+
+    background: var(--bg-comp-color);
+  
+    gap: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+
+    h1{
+        font-size: 200%;
+        
+        .spam{
+        font-size: 75%;
+      }
+    }
+    
+     
+}
+
+
+.info{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1%;
+    gap: 10px;
+
+    width: 100%;
+
+    background-color: var(--bg-color);
+
+    border-radius: 10px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    
+    .infos-cep{
+    
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+        h2{
+            color: var(--font-color);
+            font-size: 120%;
+        }
+        p{
+            color: var(--font-color-sub);
+            font-size: 80%rem;
+        }
+    }
+}
+.infos-cep:focus {
+  border: 2px solid var(--input-focus);
+}
+
+.button-voltar {
+    margin: 4% auto 2% auto;
+    width: 30%;
+    height: 10%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+  }
+
+  .button-voltar:active {
+
+    box-shadow: 2px 2px var(--main-color);
+    transform: translate(3px, 3px);
+  }
+
+  .formAlert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    width: 20vw;
+    height: 20vh;
+  
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--main-color);
+    box-shadow: 5px 5px var(--main-color);
+
+      h2{
+        font-size: 200%
+      }
+
+      p{
+      font-size: 120%;
+    }
+
+  }
+
+  .loading{
+    background: #b6b6ff;
+  }
+
+  .Erro{
+   
+    background: var(--bg-comp-erro);
+
+
+    .button-voltar {
+        font-size: 1.5rem;
+        height: 50%;
+        width: 50%;
+        
+      }
+    
+  }
+
+.Mapa {
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    border-radius: 10px;
+}
+
+
